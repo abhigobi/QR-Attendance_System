@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/attendence.css">
+
+    <title>Home Page </title>
+</head>
+<body>
+    <div class="logo">
+        <img src="/assets/images (1).jpeg" alt="">
+    </div>
+    <div class="box">
+        <!-- //this is my left block for content -->
+        <div class="left">
+            <header>
+               <h3> welcome to the I2IT QR-Based Attendance System</h3>  
+            </header>
+
+            <p> To mark the Attandance Just <span>click</span> the checkbox below </p>
+
+            <form action="/present" method="post">
+                <input class="btn" type="text"  name="Roll_no" placeholder="Enter Roll NO" required>
+                <!-- <button class="btn" type="submit" value="Present "> Present</button> -->
+                <input type="submit" class="btn" name="submit" value="Present">
+            </form>
+
+        </div>
+
+        <!-- // this is my right block for image  -->
+        <div class="right">
+            <img class="Attandance_img" src="/assets/Attandance_img.jpg" alt="">
+
+        </div>
+    </div>
+    
+</body>
+</html>

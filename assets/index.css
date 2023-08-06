@@ -1,0 +1,74 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+    
+}
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+
+.input-filed {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 105%;
+    background-color: lightgray;
+    cursor: pointer; 
+}
+.input {
+    height: 45px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 50px;
+}
+::placeholder {
+    color: black;
+    font-weight: 10px;
+}
+h1 {
+    color:#79E0EE;
+    text-align: center;
+}
+header {
+    color:#79E0EE;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+i {
+    position: relative;
+    top: -37px;
+    left: 17px;
+    color: black;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:#79E0EE;
+    background-image: url(/assets/background_img.png);
+
+}
